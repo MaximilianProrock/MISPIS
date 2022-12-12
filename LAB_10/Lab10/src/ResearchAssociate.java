@@ -10,7 +10,8 @@ public class ResearchAssociate extends Employee {
 		this.fieldOfStudy = fieldOfStudy;
 	}
 
-	public ResearchAssociate(String fieldOfStudy) {
+	public ResearchAssociate(String fieldOfStudy, int ssNo, String name, String email, int counter) {
+		super(ssNo, name, email, counter);
 		this.fieldOfStudy = fieldOfStudy;
 	}
 

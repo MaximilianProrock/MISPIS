@@ -34,6 +34,13 @@ public abstract class Employee {
 		this.counter = counter;
 	}
 
+	public Employee(int ssNo, String name, String email, int counter) {
+		this.ssNo = ssNo;
+		this.name = name;
+		this.email = email;
+		this.counter = counter;
+	}
+
 	public int ssNo;
 	public String name;
 	public String email;
